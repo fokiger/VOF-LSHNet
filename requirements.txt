@@ -1,0 +1,18 @@
+# Reference environment used for the archived VOF-LSHNet runs:
+# Python 3.8.20
+# CUDA 11.8
+#
+# Install the CUDA-compatible PyTorch build for your platform when needed.
+
+torch==2.0.0
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.2.2
+tqdm==4.66.5
+
+# Required only when regenerating semantic prototypes.
+# The released semantic_prototypes_v4_source.npz can be used without these
+# three packages.
+transformers==4.46.3
+accelerate==1.0.1
+bitsandbytes==0.45.5
